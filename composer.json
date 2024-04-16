@@ -1,0 +1,22 @@
+{
+  "name": "com211/aisc-asa-backend",
+  "description": "Asic backend",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+      "app/Helpers/Helper.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Ajay Bhandari",
+      "email": "ajay.bhandari@unthinkable.co"
+    }
+  ],
+  "require": {
+    "psr/log": "^3.0"
+  }
+}
